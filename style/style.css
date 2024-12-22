@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    max-width: 100%;
+    height: 100%;
+    margin: 3% 10% 3% 10%;
+    background-color: rgba(255, 228, 196, 0.212);
+}
+.container{
+    align-items: center;
+    justify-content: center;
+}
+.content h1{
+    font-size: 20pt;
+    text-align: justify;
+}
+.content p{
+    font-size: 10pt;
+    text-align: left;
+    word-wrap: break-word;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: -35px;
+    left: 10px;
+}
+
+.inputs{
+    flex-direction: column;
+    display: flex;
+    color: black;
+}
+.inputs input{
+    padding: 20px 40px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.795);
+    border: 1px solid rgba(156, 156, 156, 0.233);
+    outline: 0;
+}
+.btn{
+    margin: 20px 0px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(0, 0, 255, 0.384);
+}
+.btn:hover{
+    background-color: rgba(0, 102, 255, 0.664);
+}
+.icons-3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.icons-3 > p > .icons{
+    width: 34px;
+    display: inline;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.icons-3 > p > .icons-2{
+    width: 30px;
+    display: inline;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.icons-3 > p .icons:hover{
+    background-color: rgba(180, 179, 179, 0.24);
+    border: 1px solid rgba(180, 179, 179, 0.24);
+    padding: -100px;
+}
+.icons-3 > p .icons-2:hover{
+    background-color: rgba(180, 179, 179, 0.24);
+    border: 1px solid rgba(180, 179, 179, 0.24);
+    padding: -100px;
+}
+.line {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.line p{
+    text-align: center;
+    font-size: 10pt;
+    color: rgba(29, 28, 28, 0.411);
+}
+.line span{
+    height: 2px;
+    width: 100px;
+    background-color: rgba(156, 156, 156, 0.233);
+    margin: 0 auto;
+}
+.box{
+    top: 110%;
+    width: 290px;
+    text-align: left;
+    align-items: start;
+    position: -ms-page;
+    justify-content: flex-start;
+}
+
+
